@@ -2,7 +2,7 @@
 
 #### Video Demo:
 
-#### Description: A python flask web application that turns long article texts into test questions (multiple choice, true or false) with quantity of your choice using OpenAI API.
+#### Description: A python flask web application that turns long article texts into test questions (multiple choice, true or false) with the quantity of your choice using OpenAI API.
 
 ### Technologies Used:
 - HTML
