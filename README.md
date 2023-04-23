@@ -22,4 +22,4 @@
 5. Copy the generated quiz to your preference.![image](https://user-images.githubusercontent.com/88656474/233829424-33b1abd5-6d5c-42d4-8eac-99f2b9461fd0.png)
 
 ### Disclaimer:
-This is still under the development server. Hosting on the internet and adding more features will be added soon!
+This is still under the development server. Hosting on the internet and more features will be added soon!
