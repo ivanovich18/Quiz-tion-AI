@@ -1,6 +1,6 @@
 # Quiz-tion-AI
 
-#### Video Demo:
+#### Video Demo: https://youtu.be/3CdtpAHCry8
 
 #### Description: A python flask web application that turns long article texts into test questions (multiple choice, true or false) with the quantity of your choice using OpenAI API.
 
