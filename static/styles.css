@@ -1,0 +1,27 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/static/img/9mjwv931kv651.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-form {
+    margin: 5rem 0;
+    width: 50rem;
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+    margin-top: 1rem;
+    float: right;
+}
+
+.answer {
+    white-space: pre-wrap;
+}
