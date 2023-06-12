@@ -5,6 +5,7 @@ import os
 import secrets
 
 app = Flask(__name__)
+server = app.server
 # Set a secret key for session
 secret_key = secrets.token_hex(16)
 app.secret_key = secret_key
