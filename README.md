@@ -28,5 +28,5 @@
 7. Click add new entry to refresh the web app. <br> ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/0fa26395-4772-420a-95e1-278ac3b2da8b)
 
 ### Disclaimer: 
-#### Please note that this application is hosted on a free shared hosting service provided by render.com. As a result, the loading speed of the application may be slower compared to dedicated hosting services. We apologize for any inconvenience caused by the reduced performance. <br>
-#### Thank you for your understanding and patience while accessing the application.
+#### Please note that this application is hosted on a free shared hosting service provided by render.com. As a result, the loading speed of the application may be slower compared to dedicated hosting services. <br>
+#### Thank you for your understanding and patience while accessing the web application.
