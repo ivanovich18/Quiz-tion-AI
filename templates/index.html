@@ -23,7 +23,7 @@
                 questions. Save time from making own quiz-tions. Perfect for students and teachers alike.</p>
             <div class="mb-3">
                 <label for="article" class="form-label">Article</label>
-                <textarea class="form-control" id="article" name="article" rows="3"></textarea>
+                <textarea class="form-control" id="article" name="article" rows="6"></textarea>
             </div>
             <div class="mb-3">
                 <label for="quantity" class="form-label">Number of Items</label>
@@ -39,7 +39,26 @@
             <input class="btn btn-success" type="submit" value="Generate Quiz">
         </form>
         <p class="answer mt-5 text-black">{{answer}}</p>
+        <button id="copyButton" class="btn btn-primary" type="button" onclick="copyToClipboard()">Copy to
+            Clipboard</button>
     </div>
+    <script>
+        function copyToClipboard() {
+            var result = document.getElementsByClassName("answer")[0].textContent;
+            navigator.clipboard.writeText(result).then(function () {
+                alert("Result copied to clipboard!");
+            }, function () {
+                alert("Copying failed. Please manually copy the result.");
+            });
+        }
+        // Check if the answer is empty, and hide the copy button if it is
+        var answer = document.getElementsByClassName("answer")[0];
+        var copyButton = document.getElementById("copyButton");
+
+        if (answer.textContent.trim() === "") {
+            copyButton.style.display = "none";
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
