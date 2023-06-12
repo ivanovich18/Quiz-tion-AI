@@ -14,7 +14,7 @@
 - **OpenAI API** 
 
 ### Project Preview:
-![4](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/be2f701a-8e99-4ddc-a39b-0e47ac41a3b5)
+![5](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/d3910f92-3d29-43c8-aa7d-dab74c72d100)
 - A preview of the main page of the web application
 
 ### How to use:
@@ -22,7 +22,7 @@
 2. Choose the desired number of items in the number input.![image](https://user-images.githubusercontent.com/88656474/233829364-848bae02-ad8f-4036-9b89-f391d585996c.png)
 3. Select the type of quiz you want your output to be.![image](https://user-images.githubusercontent.com/88656474/233829382-8127599f-4a4f-45a4-a236-25d581263586.png)
 4. Click generate quiz button.<br>
-![image](https://user-images.githubusercontent.com/88656474/233829395-8b498bde-ab7d-4d1e-9fd3-ccf1bd1953e9.png)
+![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/797c0edd-0974-455f-9caa-fec0528582dd)
 5. Copy the generated quiz to your preference.![image](https://user-images.githubusercontent.com/88656474/233829424-33b1abd5-6d5c-42d4-8eac-99f2b9461fd0.png)
 6. Alternatively, you can click the copy to clipboard button. <br> ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/90944e6f-20ac-46e4-9714-cc450bde59b1)
 7. Click add new entry to refresh the web app. <br> ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/0fa26395-4772-420a-95e1-278ac3b2da8b)
