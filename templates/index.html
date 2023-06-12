@@ -81,6 +81,17 @@
             location.reload(); // Reload the page
         }
 
+        var quantityInput = document.getElementById("quantity");
+
+        quantityInput.addEventListener("input", function () {
+            var value = parseInt(quantityInput.value);
+            if (isNaN(value) || value < 1 || value > 10) {
+                alert("Please enter value between 1 to 10");
+                quantityInput.value = 5;
+                return;
+            }
+        })
+
         // Check if the answer is empty, and hide the copy button if it is
         var answer = document.getElementsByClassName("answer")[0];
         var copyButton = document.getElementById("copyButton");
