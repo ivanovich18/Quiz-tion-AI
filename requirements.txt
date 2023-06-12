@@ -46,3 +46,5 @@ ytmusicapi==0.22.0
 gunicorn
 python-dotenv
 openai
+Flask==2.2.3
+secrets
