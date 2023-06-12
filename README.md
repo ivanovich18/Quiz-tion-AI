@@ -14,7 +14,7 @@
 - **OpenAI API** 
 
 ### Project Preview:
-![5](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/d3910f92-3d29-43c8-aa7d-dab74c72d100)
+![7](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/717924ea-3a5f-4d5f-b629-28602d82e406)
 - A preview of the main page of the web application
 
 ### How to use:
