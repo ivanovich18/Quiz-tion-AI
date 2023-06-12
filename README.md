@@ -1,7 +1,7 @@
 # Quiz-tion-AI
 
 #### Video Demo: https://youtu.be/3CdtpAHCry8
-#### Live Link
+#### Live Link: https://quiz-tion-ai-1.onrender.com/
 
 #### Description: A python flask web application that turns long article texts into test questions (multiple choice, true or false) using OpenAI API. This is a final project for Harvard's CS50x course.
 
