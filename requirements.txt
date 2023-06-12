@@ -48,3 +48,4 @@ python-dotenv
 openai
 Flask==2.2.3
 secrets
+cryptography==3.4.8
