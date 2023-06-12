@@ -24,8 +24,9 @@
 4. Click generate quiz button.<br>
 ![image](https://user-images.githubusercontent.com/88656474/233829395-8b498bde-ab7d-4d1e-9fd3-ccf1bd1953e9.png)
 5. Copy the generated quiz to your preference.![image](https://user-images.githubusercontent.com/88656474/233829424-33b1abd5-6d5c-42d4-8eac-99f2b9461fd0.png)
-6. Alternatively, you can click the copy to clipboard button. ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/90944e6f-20ac-46e4-9714-cc450bde59b1)
-7. Click add new entry to refresh the web app. ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/0fa26395-4772-420a-95e1-278ac3b2da8b)
+6. Alternatively, you can click the copy to clipboard button. <br> ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/90944e6f-20ac-46e4-9714-cc450bde59b1)
+7. Click add new entry to refresh the web app. <br> ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/0fa26395-4772-420a-95e1-278ac3b2da8b)
 
-#### Disclaimer: Please note that this application is hosted on a free shared hosting service provided by render.com. As a result, the loading speed of the application may be slower compared to dedicated hosting services. We apologize for any inconvenience caused by the reduced performance.
+### Disclaimer: 
+#### Please note that this application is hosted on a free shared hosting service provided by render.com. As a result, the loading speed of the application may be slower compared to dedicated hosting services. We apologize for any inconvenience caused by the reduced performance. <br>
 #### Thank you for your understanding and patience while accessing the application.
