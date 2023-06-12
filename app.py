@@ -12,7 +12,7 @@ app.secret_key = secret_key
 
 load_dotenv()  # Load environment variables from .env file
 openai.api_key = os.getenv("OPENAI_API_KEY")
-
+print(os.getenv("OPENAI_API_KEY"))
 
 @app.after_request
 def after_request(response):
