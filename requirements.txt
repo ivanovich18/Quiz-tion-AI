@@ -46,3 +46,4 @@ ytmusicapi==0.22.0
 gunicorn
 dash==2.6.0
 python-dotenv
+openai
