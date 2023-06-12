@@ -7,6 +7,7 @@
     <link rel="manifest" href="/static/img/favicon_io/site.webmanifest">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="/static/styles.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,9 +19,20 @@
 <body>
     <div class="container min-vh-100 d-flex justify-content-center align-items-center">
         <form class="main-form  bg-white" action="/" method="post" onsubmit="handleSubmit(event)">
-            <h1 class="card-title mb-3">Quiz-tion AI ⚡</h1>
-            <p class="card-text mb-4">Turn your long articles into multiple choice and true or false
+            <h1 class="card-title mb-3">Quiz-tion AI⚡
+                <span><a href="https://github.com/ivanovich18/Quiz-tion-AI" target="_blank"> <i
+                            class="bi bi-box-arrow-up-right small-icon"></i></a></span>
+            </h1>
+            <p class="card-text mb-1">Turn your long articles into multiple choice and true or false
                 questions. Save time from making own quiz-tions. Perfect for students and teachers alike.</p>
+            <div class="icon-container mb-3">
+                <a href="https://github.com/ivanovich18" target="_blank"> <i class="bi bi-github medium-icon"></i></a>
+                <a href="https://www.linkedin.com/in/ivan-suralta/" target="_blank"><i
+                        class="bi bi-linkedin medium-icon"></i></a>
+                <a href="https://www.instagram.com/itsivansuralta/" target="_blank"><i
+                        class="bi bi-instagram medium-icon"></i>
+                </a>
+            </div>
             <div class="mb-3">
                 <label for="article" class="form-label">Article</label>
                 <textarea class="form-control" id="article" name="article" rows="6"></textarea>
@@ -39,6 +51,8 @@
             <input class="btn btn-primary" type="submit" value="Generate Quiz">
         </form>
         <p class="answer mt-5 text-black">{{answer}}</p>
+        <p class="note text-black">Note: Generated response is from OpenAI API, there may be a possibility of
+            inaccuracies.</p>
         <div class="row">
             <div class="col text-end">
                 <button id="copyButton" class="btn btn-success" type="button" onclick="copyToClipboard()">Copy to
@@ -92,12 +106,14 @@
 
         // Check if the answer is empty, and hide the copy button if it is
         var answer = document.getElementsByClassName("answer")[0];
+        var note = document.getElementsByClassName("note")[0];
         var copyButton = document.getElementById("copyButton");
         var refreshButton = document.getElementById("clearButton");
 
         if (answer.textContent.trim() === "") {
             copyButton.style.display = "none";
             refreshButton.style.display = "none";
+            note.style.display = "none";
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

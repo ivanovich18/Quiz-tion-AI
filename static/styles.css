@@ -1,5 +1,4 @@
 * {
-
     box-sizing: border-box;
 }
 
@@ -28,4 +27,20 @@ body {
 
 .answer {
     white-space: pre-wrap;
+}
+
+.small-icon {
+    font-size: 1rem;
+    color: black;
+}
+
+.medium-icon {
+    font-size: 2rem;
+    color: black;
+    gap: 3rem;
+    margin-right: 0.25rem;
+}
+
+.note {
+    font-weight: bold;
 }
