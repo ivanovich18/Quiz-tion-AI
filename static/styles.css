@@ -3,7 +3,8 @@
 }
 
 body {
-    background-image: url(img/optimized.jpg);
+    /* background-image: url(img/optimized.jpg); */
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
     background-repeat: no-repeat;
     background-size: cover;
 }
