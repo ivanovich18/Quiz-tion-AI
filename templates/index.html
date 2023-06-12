@@ -19,7 +19,7 @@
     <div class="container min-vh-100 d-flex justify-content-center align-items-center">
         <form class="main-form  bg-white" action="/" method="post" onsubmit="handleSubmit(event)">
             <h1 class="card-title mb-3">Quiz-tion AI ⚡</h1>
-            <p class="card-text mb-4">Turn your long articles into multiple choice, true or false, or identification
+            <p class="card-text mb-4">Turn your long articles into multiple choice and true or false
                 questions. Save time from making own quiz-tions. Perfect for students and teachers alike.</p>
             <div class="mb-3">
                 <label for="article" class="form-label">Article</label>
@@ -36,12 +36,23 @@
                     <option value="True or False">True or False</option>
                     <!-- <option value="Identification">Identification</option> -->
             </div>
-            <input class="btn btn-success" type="submit" value="Generate Quiz">
+            <input class="btn btn-primary" type="submit" value="Generate Quiz">
         </form>
         <p class="answer mt-5 text-black">{{answer}}</p>
-        <button id="copyButton" class="btn btn-primary" type="button" onclick="copyToClipboard()">Copy to
-            Clipboard</button>
+        <div class="row">
+            <div class="col text-end">
+                <button id="copyButton" class="btn btn-success" type="button" onclick="copyToClipboard()">Copy to
+                    Clipboard</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-end">
+                <button id="clearButton" class="btn btn-danger new-entry" type="button" onclick="newEntry()">Add
+                    Another Entry</button>
+            </div>
+        </div>
     </div>
+
     <script>
         function handleSubmit(event) {
             // Prevent form submission
@@ -58,21 +69,27 @@
             event.target.submit();
         }
 
-
         function copyToClipboard() {
             var result = document.getElementsByClassName("answer")[0].textContent;
             navigator.clipboard.writeText(result).then(function () {
-                alert("Result copied to clipboard!");
+                alert("Copied to clipboard!");
             }, function () {
-                alert("Copying failed. Please manually copy the result.");
+                alert("Copying failed, please manually copy the result!");
             });
         }
+
+        function newEntry() {
+            location.reload(); // Reload the page
+        }
+
         // Check if the answer is empty, and hide the copy button if it is
         var answer = document.getElementsByClassName("answer")[0];
         var copyButton = document.getElementById("copyButton");
+        var refreshButton = document.getElementById("clearButton");
 
         if (answer.textContent.trim() === "") {
             copyButton.style.display = "none";
+            refreshButton.style.display = "none";
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

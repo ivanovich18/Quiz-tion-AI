@@ -22,6 +22,10 @@ body {
     float: right;
 }
 
+.new-entry {
+    margin-top: 1.25rem;
+}
+
 .answer {
     white-space: pre-wrap;
 }
