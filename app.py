@@ -11,8 +11,6 @@ secret_key = secrets.token_hex(16)
 app.secret_key = secret_key
 
 load_dotenv()  # Load environment variables from .env file
-openai.api_key = os.getenv("OPENAI_API_KEY")
-print(os.getenv("OPENAI_API_KEY"))
 
 @app.after_request
 def after_request(response):
@@ -35,6 +33,7 @@ def index():
         quantity = request.form["quantity"]
         exam_type = request.form["type"]
         openai.api_key = os.getenv("OPENAI_API_KEY")
+        print(os.getenv("OPENAI_API_KEY"))
         response = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": f"Make a {quantity}-item quiz,{exam_type} and put the title of the quiz at the top and the answer key at the bottom, {article}"}])
