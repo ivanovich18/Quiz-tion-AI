@@ -17,7 +17,7 @@
 
 <body>
     <div class="container min-vh-100 d-flex justify-content-center align-items-center">
-        <form class="main-form  bg-white" action="/" method="post">
+        <form class="main-form  bg-white" action="/" method="post" onsubmit="handleSubmit(event)">
             <h1 class="card-title mb-3">Quiz-tion AI ⚡</h1>
             <p class="card-text mb-4">Turn your long articles into multiple choice, true or false, or identification
                 questions. Save time from making own quiz-tions. Perfect for students and teachers alike.</p>
@@ -27,7 +27,7 @@
             </div>
             <div class="mb-3">
                 <label for="quantity" class="form-label">Number of Items</label>
-                <input type="number" class="form-control" id="quantity" name="quantity" value=10>
+                <input type="number" class="form-control" id="quantity" name="quantity" value="5" min="1">
             </div>
             <div class="mb-3">
                 <label for="type" class="form-label">Type of Quiz</label>
@@ -43,6 +43,22 @@
             Clipboard</button>
     </div>
     <script>
+        function handleSubmit(event) {
+            // Prevent form submission
+            event.preventDefault();
+
+            // Check if the article textarea is empty
+            var articleTextarea = document.getElementById("article");
+            if (articleTextarea.value.trim() === "") {
+                alert("The article should not be empty.");
+                return; // Return without proceeding further
+            }
+
+            // Proceed with form submission
+            event.target.submit();
+        }
+
+
         function copyToClipboard() {
             var result = document.getElementsByClassName("answer")[0].textContent;
             navigator.clipboard.writeText(result).then(function () {

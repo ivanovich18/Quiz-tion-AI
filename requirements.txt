@@ -43,3 +43,8 @@ uvicorn==0.17.6
 websockets==10.4
 yt-dlp==2022.11.11
 ytmusicapi==0.22.0
+gunicorn
+python-dotenv
+openai
+Flask==2.2.3
+cryptography

@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(/static/img/9mjwv931kv651.png);
+    background-image: url(img/optimized.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,8 +24,4 @@ body {
 
 .answer {
     white-space: pre-wrap;
-}
-
-textarea {
-    h
 }
