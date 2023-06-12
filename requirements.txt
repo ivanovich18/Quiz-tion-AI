@@ -47,5 +47,5 @@ gunicorn
 python-dotenv
 openai
 Flask==2.2.3
-secrets
+secrets==0.1.0
 cryptography==3.4.8
