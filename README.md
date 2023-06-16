@@ -29,4 +29,4 @@
 
 ### Disclaimer: 
 #### Please note that this application is hosted on a free shared hosting service provided by render.com. As a result, the loading speed of the application may be slower compared to dedicated hosting services. <br>
-#### Thank you for your understanding and patience while accessing the web application.
+#### Note: This projects is inspired from Quizify https://quizify.symph.ai/
