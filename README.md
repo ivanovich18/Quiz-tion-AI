@@ -1,9 +1,9 @@
 # Quiz-tion-AI
 
-#### Video Demo: https://youtu.be/3CdtpAHCry8
-#### Live Link: https://quiz-tion-ai-1.onrender.com/
-
-#### Description: A python flask web application that turns long article texts into test questions (multiple choice, true or false) using OpenAI API. This is a final project for Harvard's CS50x course.
+<!-- #### **Video Demo:** https://youtu.be/3CdtpAHCry8 -->
+#### **Live Link:** https://quiz-tion-ai-1.onrender.com/
+#### **Description:** A python flask web application that turns long article texts into test questions (multiple choice, true or false) using OpenAI API. This is a final project for Harvard's CS50x course.
+#### **Disclaimer:** Please note that if the Quiz-tion AI web app hosted on render.com has been inactive for a while, there might be a delay or temporary loading issues when accessing the link as the server needs to be activated by the developer on the hosting site.
 
 ### Technologies Used:
 - **HTML**
@@ -14,7 +14,7 @@
 - **OpenAI API** 
 
 ### Project Preview:
-![5](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/d3910f92-3d29-43c8-aa7d-dab74c72d100)
+![7](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/717924ea-3a5f-4d5f-b629-28602d82e406)
 - A preview of the main page of the web application
 
 ### How to use:
@@ -27,6 +27,5 @@
 6. Alternatively, you can click the copy to clipboard button. <br> ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/90944e6f-20ac-46e4-9714-cc450bde59b1)
 7. Click add new entry to refresh the web app. <br> ![image](https://github.com/ivanovich18/Quiz-tion-AI/assets/88656474/0fa26395-4772-420a-95e1-278ac3b2da8b)
 
-### Disclaimer: 
-#### Please note that this application is hosted on a free shared hosting service provided by render.com. As a result, the loading speed of the application may be slower compared to dedicated hosting services. <br>
-#### Thank you for your understanding and patience while accessing the web application.
+#### **Note:** This application is hosted on a free shared hosting service provided by render.com. As a result, the loading speed of the application may be slower compared to dedicated hosting services. <br>
+**This projects is inspired from Quizify https://quizify.symph.ai/**
